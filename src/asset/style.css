@@ -25,12 +25,14 @@
 }
 .logo-bar {
     height: 75px;
+    padding-top: 11px;
+    background: #fff;
 }
-
 .logo-content {
     width: 200px;
     height: 40px;
     vertical-align: top;
+    display: inline-block;
 }
 
 .logo-content a {
@@ -47,6 +49,7 @@
     height: 45px;
     line-height: 45px;
     background-color: #fff;  
+    position: relative;
 }
 .searchbox-content {
     width: 100%;
@@ -93,7 +96,6 @@
 .searchbar-button button {
     width: 45px;
     height: 45px;
-    text-indent: -9999px;
     border: none;
     border-radius: 0 2px 2px 0;
     outline: none;
@@ -105,12 +107,37 @@
 }
 .logo-content-offter {
     position: absolute;
-    z-index: 21000;
-    top: 100%;
     right: 0;
-    left: 0;
-    width: 100%;
-    border-radius: 3px;
-    background: #ccc;
- 
+    top: 0;
+}
+.logo-content-offter img {
+    width: 188px;
+    height: 45px;
+    display: block;
+}
+.logo-content-cart {
+    position: relative;
+    display: inline-block;
+    margin: 0 0 0 20px;
+    top: -10px;
+}
+span.cartIcon {
+    font-size: 38px;
+    color: #000;
+}
+.category-menu {
+    width: 200px;
+    background: #fff;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.category-menu ul li a {
+    font-size: 13px;
+    color: #757575;
+    line-height: 27px;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
 }

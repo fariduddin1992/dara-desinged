@@ -1,5 +1,5 @@
 
-
+import Button from 'react-bootstrap/Button'
 function TopHeader() {
   return (
 
@@ -44,8 +44,10 @@ function TopHeader() {
                             </div>
                         </div>
                         <div className="searchbar-button">
-                            <button>Search</button>
+                            <Button> <i className="fa fa-search"></i></Button>
+                           
                         </div>
+                        
                     </form>
                 </div>
                 <div className="logo-content-cart">
@@ -55,11 +57,11 @@ function TopHeader() {
                         </span>
                     </a>
                 </div>
-                <div className="logo-content-offter">
+                {/* <div className="logo-content-offter">
                     <a href="">
                         <img src="//icms-image.slatic.net/images/ims-web/f794195c-0213-47b1-aa0f-fd2a08a9a2cf.png" alt="Voucher"/>
                     </a>
-                </div>
+                </div> */}
             </div>
         </div>
     </div>
