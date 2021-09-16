@@ -1,0 +1,116 @@
+.link-bar{
+    background: rgba(158,158,158,.2);
+    height: 25px;
+    text-align: right;
+    transition: height .25s linear,zIndex 0s linear .25s;
+}
+.link-item>a {
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+}
+.link-item{
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    text-align: left;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #212121;
+    transition: color .2s; 
+    padding: 0 17px;
+}
+.logo-bar {
+    height: 75px;
+}
+
+.logo-content {
+    width: 200px;
+    height: 40px;
+    vertical-align: top;
+}
+
+.logo-content a {
+    float: left;
+}
+
+.logo-content a img {
+    width: 135px;
+    height: 41px;
+}
+.logo-content-seearchbar{
+    width: 688px;
+    display: inline-block;
+    height: 45px;
+    line-height: 45px;
+    background-color: #fff;  
+}
+.searchbox-content {
+    width: 100%;
+    position: relative;
+    height: 45px;
+}
+.searchbox-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+}
+.searchbar-input{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 13px 19px;
+    font-family: Roboto-Regular,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0;
+    color: #212121;
+    border: none;
+    outline: none;
+    background: #f5f5f5;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 2px;
+}
+.searchbar-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45px;
+    line-height: 1;
+}
+.searchbar-button button {
+    width: 45px;
+    height: 45px;
+    text-indent: -9999px;
+    border: none;
+    border-radius: 0 2px 2px 0;
+    outline: none;
+    background: #f57224;
+    background-size: 22px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+.logo-content-offter {
+    position: absolute;
+    z-index: 21000;
+    top: 100%;
+    right: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 3px;
+    background: #ccc;
+ 
+}
