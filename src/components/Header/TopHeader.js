@@ -4,7 +4,8 @@ function TopHeader() {
   return (
 
     <div className="topheader">
-        <div className="link-bar">
+        <div className="container">
+           <div className="link-bar">
             <div className="link-section">
                 <div className="link-item">
                     <a href="#">Save More On App</a>
@@ -28,7 +29,9 @@ function TopHeader() {
                     <a href="#">ভাষা</a>
                 </div>
             </div>
+        </div> 
         </div>
+        
         <div className='logo-bar'>
             <div className="container">
                 <div className="logo-content">

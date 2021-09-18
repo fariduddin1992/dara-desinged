@@ -7,6 +7,9 @@ import "bootstrap/dist/css/bootstrap.css";
 import "../src/asset/default.css"
 import "../src/asset/style.css"
 import 'font-awesome/css/font-awesome.min.css';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
 
 
 ReactDOM.render(
