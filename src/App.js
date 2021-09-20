@@ -1,4 +1,5 @@
 import React from 'react'
+import AddToCart from './components/Cart/AddToCart';
 import Footer from './components/Footer/Footer';
 
 import TopHeader from './components/Header/TopHeader';
@@ -11,6 +12,7 @@ function App() {
       <TopHeader/> 
       <SliderPage/>
       <ProductList/>
+       <AddToCart/>
       <Footer/>
     </div>
   );
